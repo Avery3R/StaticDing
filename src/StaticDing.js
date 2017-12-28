@@ -339,10 +339,6 @@ function checkMode() {
  * @param {string} msg - The text of the start message for the user.
  */
 function announceStart(msg) {
-
-	DialogBox.boot();
-
-	DialogBox.announceStart(msg);
 }
 
 
