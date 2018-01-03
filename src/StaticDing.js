@@ -355,7 +355,7 @@ function filterElem(elem) {
 	
 		var elemPosVal = Utils.getElementPosVal(elem);
 
-		if (elemPosVal === 'fixed') {
+		if (elemPosVal === 'fixed' || elemPosVal ===  'sticky') {
 
 			if ((elem === DialogBox.bottomLayer) || 
 				(elem === DialogBox.topLayer) ||
